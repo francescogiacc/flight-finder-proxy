@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a25a3d888aca4dec59032c2",
+    "id": "6a25a40955ba65d7267c8241",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.json",
-    "created_at": "2026-06-07 17:01:12 UTC",
-    "processed_at": "2026-06-07 17:01:12 UTC",
-    "google_flights_url": "https://www.google.com/travel/flights?hl=it&gl=us&curr=EUR&tfs=CBwQAhoeEgoyMDI2LTA3LTA5agcIARIDQkVScgcIARIDVkNFGh4SCjIwMjYtMDctMTdqBwgBEgNWQ0VyBwgBEgNCRVJAAUgBcAGYAQE&tfu=EgIIAQ",
-    "raw_html_file": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.html",
-    "prettify_html_file": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.prettify",
-    "total_time_taken": 0.72
+    "json_endpoint": "https://serpapi.com/searches/c2GIN9QN6ZVdb5ks07f1HQ/6a25a40955ba65d7267c8241.json",
+    "created_at": "2026-06-07 17:02:01 UTC",
+    "processed_at": "2026-06-07 17:02:01 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=it&gl=us&curr=EUR&tfs=CBwQAhoeEgoyMDI2LTA3LTA5agcIARIDQkVScgcIARIDVkNFGh4SCjIwMjYtMDctMjBqBwgBEgNWQ0VyBwgBEgNCRVJAAUgBcAGYAQE&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/c2GIN9QN6ZVdb5ks07f1HQ/6a25a40955ba65d7267c8241.html",
+    "prettify_html_file": "https://serpapi.com/searches/c2GIN9QN6ZVdb5ks07f1HQ/6a25a40955ba65d7267c8241.prettify",
+    "total_time_taken": 0.73
   },
   "search_parameters": {
     "engine": "google_flights",
@@ -17,7 +17,7 @@
     "departure_id": "BER",
     "arrival_id": "VCE",
     "outbound_date": "2026-07-09",
-    "return_date": "2026-07-17",
+    "return_date": "2026-07-20",
     "adults": 1,
     "stops": 0,
     "currency": "EUR"
@@ -53,186 +53,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": -35
       },
-      "price": 185,
+      "price": 196,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ1pWTWpVd09EVWFDd2pFa0FFUUFob0RSVlZTT0J4d3c2WUIiLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIlUyIiwiNTA4NSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 14:00"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 15:40"
-          },
-          "duration": 100,
-          "airplane": "Boeing 737",
-          "airline": "Ryanair",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FR.png",
-          "travel_class": "Economy",
-          "flight_number": "FR 401",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 82 kg"
-          ],
-          "plane_and_crew_by": "Malta Air"
-        }
-      ],
-      "total_duration": 100,
-      "carbon_emissions": {
-        "this_flight": 82000,
-        "typical_for_this_route": 127000,
-        "difference_percent": -35
-      },
-      "price": 271,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FR.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ1ZHVWpRd01Sb0xDSjNUQVJBQ0dnTkZWVkk0SEhDdjh3RT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkZSIiwiNDAxIl1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 11:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 12:20"
-          },
-          "duration": 70,
-          "airplane": "Airbus A320",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 226",
-          "legroom": "71 cm",
-          "extensions": [
-            "Below average legroom (71 cm)",
-            "In-seat USB outlet",
-            "Carbon emissions estimate: 64 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 12:50"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 13:55"
-          },
-          "duration": 65,
-          "airplane": "Embraer 195",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 543",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 72 kg"
-          ],
-          "plane_and_crew_by": "Air Dolomiti"
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 30,
-          "name": "Aeroporto di Vienna-Schwechat",
-          "id": "VIE"
-        }
-      ],
-      "total_duration": 165,
-      "carbon_emissions": {
-        "this_flight": 137000,
-        "typical_for_this_route": 127000,
-        "difference_percent": 8
-      },
-      "price": 310,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJeU5ueFBVelUwTXhvTENNdnhBUkFDR2dORlZWSTRISENzbGdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMjYiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQzIl1dXQ=="
-    }
-  ],
-  "other_flights": [
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 06:55"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Bruxelles-Zaventem",
-            "id": "BRU",
-            "time": "2026-07-09 08:20"
-          },
-          "duration": 85,
-          "airplane": "Airbus A319",
-          "airline": "Brussels Airlines",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-          "travel_class": "Economy",
-          "flight_number": "SN 2592",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 83 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Bruxelles-Zaventem",
-            "id": "BRU",
-            "time": "2026-07-09 09:55"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 11:40"
-          },
-          "duration": 105,
-          "airplane": "Airbus A320",
-          "airline": "Brussels Airlines",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-          "travel_class": "Economy",
-          "flight_number": "SN 3201",
-          "legroom": "74 cm",
-          "extensions": [
-            "Below average legroom (74 cm)",
-            "Carbon emissions estimate: 87 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 95,
-          "name": "Aeroporto di Bruxelles-Zaventem",
-          "id": "BRU"
-        }
-      ],
-      "total_duration": 285,
-      "carbon_emissions": {
-        "this_flight": 171000,
-        "typical_for_this_route": 127000,
-        "difference_percent": 35
-      },
-      "price": 256,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZzFUVGpJMU9USjhVMDR6TWpBeEdnc0lvY2NCRUFJYUEwVlZVamdjY01ybEFRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU5MiJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjAxIl1dXQ=="
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ1pWTWpVd09EVWFDd2pmbUFFUUFob0RSVlZTT0J4dy9xOEIiLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIlUyIiwiNTA4NSJdXV0="
     },
     {
       "flights": [
@@ -300,7 +124,7 @@
       "price": 266,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RNU0RFNE5YeE1TRE15T0JvTENJWFBBUkFDR2dORlZWSTRISERGN2dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIkZSQSIsbnVsbCwiTEgiLCIxODUiXSxbIkZSQSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxIIiwiMzI4Il1dXQ=="
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3RNU0RFNE5YeE1TRE15T0JvTENON1BBUkFDR2dORlZWSTRISENzN3dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIkZSQSIsbnVsbCwiTEgiLCIxODUiXSxbIkZSQSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxIIiwiMzI4Il1dXQ=="
     },
     {
       "flights": [
@@ -308,179 +132,43 @@
           "departure_airport": {
             "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
             "id": "BER",
-            "time": "2026-07-09 16:55"
+            "time": "2026-07-09 11:10"
           },
           "arrival_airport": {
             "name": "Aeroporto di Vienna-Schwechat",
             "id": "VIE",
-            "time": "2026-07-09 18:10"
+            "time": "2026-07-09 12:20"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 232",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 68 kg"
-          ],
-          "plane_and_crew_by": "Air Baltic"
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 21:20"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 22:25"
-          },
-          "duration": 65,
-          "airplane": "Embraer 195",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 549",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 72 kg"
-          ],
-          "plane_and_crew_by": "Air Dolomiti"
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 190,
-          "name": "Aeroporto di Vienna-Schwechat",
-          "id": "VIE"
-        }
-      ],
-      "total_duration": 330,
-      "carbon_emissions": {
-        "this_flight": 141000,
-        "typical_for_this_route": 127000,
-        "difference_percent": 11
-      },
-      "price": 280,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJek1ueFBVelUwT1JvTENKUGFBUkFDR2dORlZWSTRISENzK3dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzIiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ5Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 18:45"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Bruxelles-Zaventem",
-            "id": "BRU",
-            "time": "2026-07-09 20:10"
-          },
-          "duration": 85,
-          "airplane": "Airbus A320neo",
-          "airline": "Brussels Airlines",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-          "travel_class": "Economy",
-          "flight_number": "SN 2588",
-          "legroom": "74 cm",
-          "extensions": [
-            "Below average legroom (74 cm)",
-            "Carbon emissions estimate: 63 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Bruxelles-Zaventem",
-            "id": "BRU",
-            "time": "2026-07-09 21:20"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 23:00"
-          },
-          "duration": 100,
-          "airplane": "Airbus A319",
-          "airline": "Brussels Airlines",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-          "travel_class": "Economy",
-          "flight_number": "SN 3207",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 100 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
           "duration": 70,
-          "name": "Aeroporto di Bruxelles-Zaventem",
-          "id": "BRU"
-        }
-      ],
-      "total_duration": 255,
-      "carbon_emissions": {
-        "this_flight": 164000,
-        "typical_for_this_route": 127000,
-        "difference_percent": 29
-      },
-      "price": 281,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZzFUVGpJMU9EaDhVMDR6TWpBM0dnc0k1ZG9CRUFJYUEwVlZVamdjY0lyOEFRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU4OCJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjA3Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 15:10"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 16:25"
-          },
-          "duration": 75,
-          "airplane": "Airbus A320neo",
+          "airplane": "Airbus A320",
           "airline": "Austrian",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
           "travel_class": "Economy",
-          "flight_number": "OS 230",
+          "flight_number": "OS 226",
           "legroom": "71 cm",
           "extensions": [
             "Below average legroom (71 cm)",
             "In-seat USB outlet",
-            "Carbon emissions estimate: 57 kg"
+            "Carbon emissions estimate: 64 kg"
           ]
         },
         {
           "departure_airport": {
             "name": "Aeroporto di Vienna-Schwechat",
             "id": "VIE",
-            "time": "2026-07-09 17:25"
+            "time": "2026-07-09 12:50"
           },
           "arrival_airport": {
             "name": "Aeroporto di Venezia Marco Polo",
             "id": "VCE",
-            "time": "2026-07-09 18:30"
+            "time": "2026-07-09 13:55"
           },
           "duration": 65,
           "airplane": "Embraer 195",
           "airline": "Austrian",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
           "travel_class": "Economy",
-          "flight_number": "OS 547",
+          "flight_number": "OS 543",
           "legroom": "76 cm",
           "extensions": [
             "Average legroom (76 cm)",
@@ -491,21 +179,21 @@
       ],
       "layovers": [
         {
-          "duration": 60,
+          "duration": 30,
           "name": "Aeroporto di Vienna-Schwechat",
           "id": "VIE"
         }
       ],
-      "total_duration": 200,
+      "total_duration": 165,
       "carbon_emissions": {
-        "this_flight": 129000,
+        "this_flight": 137000,
         "typical_for_this_route": 127000,
-        "difference_percent": 2
+        "difference_percent": 8
       },
-      "price": 310,
+      "price": 311,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJek1IeFBVelUwTnhvTENNdnhBUkFDR2dORlZWSTRISENzbGdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzAiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ3Il1dXQ=="
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3RQVXpJeU5ueFBVelUwTXhvTENLVHlBUkFDR2dORlZWSTRISENUbHdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMjYiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQzIl1dXQ=="
     },
     {
       "flights": [
@@ -573,263 +261,514 @@
         "typical_for_this_route": 127000,
         "difference_percent": 17
       },
-      "price": 311,
+      "price": 312,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
-      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3hNV0RrMk9YeE1XREUyTlRnYUN3aWs4Z0VRQWhvRFJWVlNPQnh3azVjQyIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlpSSCIsbnVsbCwiTFgiLCI5NjkiXSxbIlpSSCIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxYIiwiMTY1OCJdXV0="
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3hNV0RrMk9YeE1XREUyTlRnYUN3ajk4Z0VRQWhvRFJWVlNPQnh3K1pjQyIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlpSSCIsbnVsbCwiTFgiLCI5NjkiXSxbIlpSSCIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxYIiwiMTY1OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 14:00"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 15:40"
+          },
+          "duration": 100,
+          "airplane": "Boeing 737",
+          "airline": "Ryanair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FR.png",
+          "travel_class": "Economy",
+          "flight_number": "FR 401",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 82 kg"
+          ],
+          "plane_and_crew_by": "Malta Air"
+        }
+      ],
+      "total_duration": 100,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 127000,
+        "difference_percent": -35
+      },
+      "price": 384,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FR.png",
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ1ZHVWpRd01Sb0xDTWFyQWhBQ0dnTkZWVkk0SEhDUTJRST0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkZSIiwiNDAxIl1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 15:10"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 16:25"
+          },
+          "duration": 75,
+          "airplane": "Airbus A320neo",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 230",
+          "legroom": "71 cm",
+          "extensions": [
+            "Below average legroom (71 cm)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 57 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 17:25"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 18:30"
+          },
+          "duration": 65,
+          "airplane": "Embraer 195",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 547",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 72 kg"
+          ],
+          "plane_and_crew_by": "Air Dolomiti"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 60,
+          "name": "Aeroporto di Vienna-Schwechat",
+          "id": "VIE"
+        }
+      ],
+      "total_duration": 200,
+      "carbon_emissions": {
+        "this_flight": 129000,
+        "typical_for_this_route": 127000,
+        "difference_percent": 2
+      },
+      "price": 311,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3RQVXpJek1IeFBVelUwTnhvTENLVHlBUkFDR2dORlZWSTRISENUbHdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzAiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 18:35"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 19:50"
+          },
+          "duration": 75,
+          "airplane": "Embraer 195",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 234",
+          "legroom": "74 cm",
+          "extensions": [
+            "Below average legroom (74 cm)",
+            "Carbon emissions estimate: 77 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 21:20"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 22:25"
+          },
+          "duration": 65,
+          "airplane": "Embraer 195",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 549",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 72 kg"
+          ],
+          "plane_and_crew_by": "Air Dolomiti"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 90,
+          "name": "Aeroporto di Vienna-Schwechat",
+          "id": "VIE"
+        }
+      ],
+      "total_duration": 230,
+      "carbon_emissions": {
+        "this_flight": 150000,
+        "typical_for_this_route": 127000,
+        "difference_percent": 18
+      },
+      "price": 311,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3RQVXpJek5IeFBVelUwT1JvTENLVHlBUkFDR2dORlZWSTRISENUbHdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzQiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 14:45"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Francoforte sul Meno",
+            "id": "FRA",
+            "time": "2026-07-09 15:55"
+          },
+          "duration": 70,
+          "airplane": "Airbus A321",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "flight_number": "LH 187",
+          "ticket_also_sold_by": [
+            "ITA"
+          ],
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "Carbon emissions estimate: 62 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Francoforte sul Meno",
+            "id": "FRA",
+            "time": "2026-07-09 16:50"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 18:10"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "flight_number": "LH 328",
+          "ticket_also_sold_by": [
+            "ITA"
+          ],
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 55,
+          "name": "Aeroporto di Francoforte sul Meno",
+          "id": "FRA"
+        }
+      ],
+      "total_duration": 205,
+      "carbon_emissions": {
+        "this_flight": 134000,
+        "typical_for_this_route": 127000,
+        "difference_percent": 6
+      },
+      "price": 321,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+      "departure_token": "WyJDalJJT0dVeVZIcFZkVUpHTldOQlMzbEhTSGRDUnkwdExTMHRMUzB0TFhaMFltUndPRUZCUVVGQlIyOXNjRUZyU2tKWFJYTkJFZ3RNU0RFNE4zeE1TRE15T0JvTENOcjZBUkFDR2dORlZWSTRISER0b0FJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIkZSQSIsbnVsbCwiTEgiLCIxODciXSxbIkZSQSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxIIiwiMzI4Il1dXQ=="
     }
   ],
   "price_insights": {
-    "lowest_price": 185,
+    "lowest_price": 196,
     "price_level": "typical",
     "typical_price_range": [
-      105,
-      215
+      120,
+      230
     ],
     "price_history": [
       [
         1775599200,
-        149
+        154
       ],
       [
         1775685600,
-        149
+        154
       ],
       [
         1775772000,
-        141
-      ],
-      [
-        1775858400,
-        141
-      ],
-      [
-        1775944800,
-        141
-      ],
-      [
-        1776031200,
-        147
-      ],
-      [
-        1776117600,
-        141
-      ],
-      [
-        1776204000,
-        141
-      ],
-      [
-        1776290400,
-        141
-      ],
-      [
-        1776376800,
-        133
-      ],
-      [
-        1776463200,
-        135
-      ],
-      [
-        1776549600,
-        135
-      ],
-      [
-        1776636000,
-        123
-      ],
-      [
-        1776722400,
-        123
-      ],
-      [
-        1776808800,
-        123
-      ],
-      [
-        1776895200,
-        132
-      ],
-      [
-        1776981600,
-        131
-      ],
-      [
-        1777068000,
-        131
-      ],
-      [
-        1777154400,
-        131
-      ],
-      [
-        1777240800,
-        127
-      ],
-      [
-        1777327200,
-        119
-      ],
-      [
-        1777413600,
-        118
-      ],
-      [
-        1777500000,
-        118
-      ],
-      [
-        1777586400,
-        120
-      ],
-      [
-        1777672800,
-        120
-      ],
-      [
-        1777759200,
-        121
-      ],
-      [
-        1777845600,
-        122
-      ],
-      [
-        1777932000,
-        133
-      ],
-      [
-        1778018400,
-        133
-      ],
-      [
-        1778104800,
-        118
-      ],
-      [
-        1778191200,
-        122
-      ],
-      [
-        1778277600,
-        126
-      ],
-      [
-        1778364000,
-        130
-      ],
-      [
-        1778450400,
-        130
-      ],
-      [
-        1778536800,
-        161
-      ],
-      [
-        1778623200,
-        161
-      ],
-      [
-        1778709600,
-        159
-      ],
-      [
-        1778796000,
-        153
-      ],
-      [
-        1778882400,
-        153
-      ],
-      [
-        1778968800,
         155
       ],
       [
-        1779055200,
+        1775858400,
+        155
+      ],
+      [
+        1775944800,
+        155
+      ],
+      [
+        1776031200,
+        155
+      ],
+      [
+        1776117600,
+        142
+      ],
+      [
+        1776204000,
+        142
+      ],
+      [
+        1776290400,
+        142
+      ],
+      [
+        1776376800,
+        142
+      ],
+      [
+        1776463200,
+        144
+      ],
+      [
+        1776549600,
+        144
+      ],
+      [
+        1776636000,
+        144
+      ],
+      [
+        1776722400,
+        144
+      ],
+      [
+        1776808800,
+        144
+      ],
+      [
+        1776895200,
         153
+      ],
+      [
+        1776981600,
+        153
+      ],
+      [
+        1777068000,
+        153
+      ],
+      [
+        1777154400,
+        153
+      ],
+      [
+        1777240800,
+        154
+      ],
+      [
+        1777327200,
+        139
+      ],
+      [
+        1777413600,
+        139
+      ],
+      [
+        1777500000,
+        139
+      ],
+      [
+        1777586400,
+        139
+      ],
+      [
+        1777672800,
+        139
+      ],
+      [
+        1777759200,
+        139
+      ],
+      [
+        1777845600,
+        139
+      ],
+      [
+        1777932000,
+        149
+      ],
+      [
+        1778018400,
+        149
+      ],
+      [
+        1778104800,
+        139
+      ],
+      [
+        1778191200,
+        139
+      ],
+      [
+        1778277600,
+        139
+      ],
+      [
+        1778364000,
+        139
+      ],
+      [
+        1778450400,
+        139
+      ],
+      [
+        1778536800,
+        171
+      ],
+      [
+        1778623200,
+        171
+      ],
+      [
+        1778709600,
+        167
+      ],
+      [
+        1778796000,
+        167
+      ],
+      [
+        1778882400,
+        167
+      ],
+      [
+        1778968800,
+        167
+      ],
+      [
+        1779055200,
+        167
       ],
       [
         1779141600,
-        153
+        171
       ],
       [
         1779228000,
-        170
+        171
       ],
       [
         1779314400,
-        170
+        171
       ],
       [
         1779400800,
-        172
+        171
       ],
       [
         1779487200,
-        177
+        175
       ],
       [
         1779573600,
-        177
+        175
       ],
       [
         1779660000,
-        177
-      ],
-      [
-        1779746400,
-        174
-      ],
-      [
-        1779832800,
-        172
-      ],
-      [
-        1779919200,
-        172
-      ],
-      [
-        1780005600,
-        156
-      ],
-      [
-        1780092000,
-        156
-      ],
-      [
-        1780178400,
-        162
-      ],
-      [
-        1780264800,
-        170
-      ],
-      [
-        1780351200,
-        173
-      ],
-      [
-        1780437600,
-        180
-      ],
-      [
-        1780524000,
         178
       ],
       [
+        1779746400,
+        178
+      ],
+      [
+        1779832800,
+        178
+      ],
+      [
+        1779919200,
+        178
+      ],
+      [
+        1780005600,
+        178
+      ],
+      [
+        1780092000,
+        178
+      ],
+      [
+        1780178400,
+        178
+      ],
+      [
+        1780264800,
+        178
+      ],
+      [
+        1780351200,
+        181
+      ],
+      [
+        1780437600,
+        188
+      ],
+      [
+        1780524000,
+        188
+      ],
+      [
         1780610400,
-        177
+        188
       ],
       [
         1780696800,
-        177
+        196
       ],
       [
         1780783200,
-        185
+        196
       ]
     ]
   },
