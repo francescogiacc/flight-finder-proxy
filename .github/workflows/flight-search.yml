@@ -1,0 +1,39 @@
+name: Flight Search
+on:
+  repository_dispatch:
+    types: [search-flights]
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Search flights via SerpAPI
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          TOKEN="ff2026-chianti"
+          INPUT_TOKEN=$(echo $PAYLOAD | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('token',''))")
+
+          if [ "$INPUT_TOKEN" != "$TOKEN" ]; then
+            echo '{"error":"Unauthorized"}' > results/latest.json
+            exit 0
+          fi
+
+          ARR_ID=$(echo $PAYLOAD | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('arrival_id','VCE'))")
+          OUT_DATE=$(echo $PAYLOAD | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('outbound_date',''))")
+          RET_DATE=$(echo $PAYLOAD | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('return_date',''))")
+
+          curl -s "https://serpapi.com/search?engine=google_flights&departure_id=BER&arrival_id=${ARR_ID}&outbound_date=${OUT_DATE}&return_date=${RET_DATE}&adults=1&stops=0&currency=EUR&hl=it&api_key=${SERPAPI_KEY}" > results/latest.json
+
+      - name: Commit results
+        run: |
+          git config user.name "flight-bot"
+          git config user.email "bot@noreply"
+          git add results/latest.json
+          git commit -m "results $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push
