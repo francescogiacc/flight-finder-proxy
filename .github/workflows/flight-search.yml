@@ -15,64 +15,7 @@ jobs:
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           PAYLOAD: ${{ toJson(github.event.client_payload) }}
-        run: python3 - << 'EOF'
-import json
-import os
-import urllib.request
-import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
-payload = json.loads(os.environ["PAYLOAD"])
-serpapi_key = os.environ["SERPAPI_KEY"]
-secret = "ff2026-chianti"
-
-if payload.get("token") != secret:
-    with open("results/latest.json", "w") as f:
-        json.dump({"error": "Unauthorized"}, f)
-    raise SystemExit(0)
-
-searches = payload.get("searches", [])
-
-def fetch(s):
-    key = s["arrival_id"] + "_" + s.get("return_date", s.get("outbound_date", ""))
-    params = {
-        "engine": "google_flights",
-        "api_key": serpapi_key,
-        "departure_id": "BER",
-        "arrival_id": s["arrival_id"],
-        "outbound_date": s["outbound_date"],
-        "adults": "1",
-        "stops": "0",
-        "currency": "EUR",
-        "hl": "it",
-    }
-    if s.get("return_date"):
-        params["return_date"] = s["return_date"]
-        params["type"] = "1"
-    else:
-        params["type"] = "2"
-
-    url = "https://serpapi.com/search?" + urllib.parse.urlencode(params)
-    try:
-        with urllib.request.urlopen(url, timeout=30) as r:
-            return key, json.loads(r.read())
-    except Exception as e:
-        return key, {"error": str(e)}
-
-results = {}
-with ThreadPoolExecutor(max_workers=6) as ex:
-    futures = {ex.submit(fetch, s): s for s in searches}
-    for fut in as_completed(futures):
-        k, v = fut.result()
-        results[k] = v
-        print(f"Done: {k} | status={v.get('search_metadata', {}).get('status', 'error')}")
-
-os.makedirs("results", exist_ok=True)
-with open("results/latest.json", "w") as f:
-    json.dump(results, f)
-
-print(f"Merged {len(results)} results: {list(results.keys())}")
-EOF
+        run: python3 scripts/search.py
 
       - name: Commit results
         run: |
