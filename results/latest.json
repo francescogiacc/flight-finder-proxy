@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a25a2f171a41d4f0a5973da",
+    "id": "6a25a3d888aca4dec59032c2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/a0KX0Lc-s4dC3IVzhjosUA/6a25a2f171a41d4f0a5973da.json",
-    "created_at": "2026-06-07 16:57:21 UTC",
-    "processed_at": "2026-06-07 16:57:21 UTC",
-    "google_flights_url": "https://www.google.com/travel/flights?hl=it&gl=us&curr=EUR&tfs=CBwQAhoeEgoyMDI2LTA3LTA5agcIARIDQkVScgcIARIDVkNFGh4SCjIwMjYtMDctMTRqBwgBEgNWQ0VyBwgBEgNCRVJAAUgBcAGYAQE&tfu=EgIIAQ",
-    "raw_html_file": "https://serpapi.com/searches/a0KX0Lc-s4dC3IVzhjosUA/6a25a2f171a41d4f0a5973da.html",
-    "prettify_html_file": "https://serpapi.com/searches/a0KX0Lc-s4dC3IVzhjosUA/6a25a2f171a41d4f0a5973da.prettify",
-    "total_time_taken": 1.57
+    "json_endpoint": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.json",
+    "created_at": "2026-06-07 17:01:12 UTC",
+    "processed_at": "2026-06-07 17:01:12 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=it&gl=us&curr=EUR&tfs=CBwQAhoeEgoyMDI2LTA3LTA5agcIARIDQkVScgcIARIDVkNFGh4SCjIwMjYtMDctMTdqBwgBEgNWQ0VyBwgBEgNCRVJAAUgBcAGYAQE&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.html",
+    "prettify_html_file": "https://serpapi.com/searches/iAYDCWG7vBi93pE_ZKoOUg/6a25a3d888aca4dec59032c2.prettify",
+    "total_time_taken": 0.72
   },
   "search_parameters": {
     "engine": "google_flights",
@@ -17,7 +17,7 @@
     "departure_id": "BER",
     "arrival_id": "VCE",
     "outbound_date": "2026-07-09",
-    "return_date": "2026-07-14",
+    "return_date": "2026-07-17",
     "adults": 1,
     "stops": 0,
     "currency": "EUR"
@@ -53,10 +53,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": -35
       },
-      "price": 180,
+      "price": 185,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/U2.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ1pWTWpVd09EVWFDd2pRakFFUUFob0RSVlZTT0J4d2c2SUIiLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIlUyIiwiNTA4NSJdXV0="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ1pWTWpVd09EVWFDd2pFa0FFUUFob0RSVlZTT0J4d3c2WUIiLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIlUyIiwiNTA4NSJdXV0="
     },
     {
       "flights": [
@@ -91,10 +91,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": -35
       },
-      "price": 265,
+      "price": 271,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FR.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ1ZHVWpRd01Sb0xDTS9PQVJBQ0dnTkZWVkk0SEhDSDdnRT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkZSIiwiNDAxIl1dXQ=="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ1ZHVWpRd01Sb0xDSjNUQVJBQ0dnTkZWVkk0SEhDdjh3RT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkZSIiwiNDAxIl1dXQ=="
     },
     {
       "flights": [
@@ -160,10 +160,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": 8
       },
-      "price": 291,
+      "price": 310,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ3RQVXpJeU5ueFBVelUwTXhvTENOL2lBUkFDR2dORlZWSTRISENmaFFJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMjYiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQzIl1dXQ=="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJeU5ueFBVelUwTXhvTENNdnhBUkFDR2dORlZWSTRISENzbGdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMjYiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQzIl1dXQ=="
     }
   ],
   "other_flights": [
@@ -229,10 +229,147 @@
         "typical_for_this_route": 127000,
         "difference_percent": 35
       },
-      "price": 255,
+      "price": 256,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZzFUVGpJMU9USjhVMDR6TWpBeEdnc0lqOGNCRUFJYUEwVlZVamdjY0xYbEFRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU5MiJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjAxIl1dXQ=="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZzFUVGpJMU9USjhVMDR6TWpBeEdnc0lvY2NCRUFJYUEwVlZVamdjY01ybEFRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU5MiJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjAxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 13:45"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Francoforte sul Meno",
+            "id": "FRA",
+            "time": "2026-07-09 14:55"
+          },
+          "duration": 70,
+          "airplane": "Airbus A321",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "flight_number": "LH 185",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Wi-Fi for a fee",
+            "Carbon emissions estimate: 62 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Francoforte sul Meno",
+            "id": "FRA",
+            "time": "2026-07-09 16:50"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 18:10"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "flight_number": "LH 328",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 115,
+          "name": "Aeroporto di Francoforte sul Meno",
+          "id": "FRA"
+        }
+      ],
+      "total_duration": 265,
+      "carbon_emissions": {
+        "this_flight": 134000,
+        "typical_for_this_route": 127000,
+        "difference_percent": 6
+      },
+      "price": 266,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RNU0RFNE5YeE1TRE15T0JvTENJWFBBUkFDR2dORlZWSTRISERGN2dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIkZSQSIsbnVsbCwiTEgiLCIxODUiXSxbIkZSQSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxIIiwiMzI4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
+            "id": "BER",
+            "time": "2026-07-09 16:55"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 18:10"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 232",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 68 kg"
+          ],
+          "plane_and_crew_by": "Air Baltic"
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto di Vienna-Schwechat",
+            "id": "VIE",
+            "time": "2026-07-09 21:20"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto di Venezia Marco Polo",
+            "id": "VCE",
+            "time": "2026-07-09 22:25"
+          },
+          "duration": 65,
+          "airplane": "Embraer 195",
+          "airline": "Austrian",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+          "travel_class": "Economy",
+          "flight_number": "OS 549",
+          "legroom": "76 cm",
+          "extensions": [
+            "Average legroom (76 cm)",
+            "Carbon emissions estimate: 72 kg"
+          ],
+          "plane_and_crew_by": "Air Dolomiti"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 190,
+          "name": "Aeroporto di Vienna-Schwechat",
+          "id": "VIE"
+        }
+      ],
+      "total_duration": 330,
+      "carbon_emissions": {
+        "this_flight": 141000,
+        "typical_for_this_route": 127000,
+        "difference_percent": 11
+      },
+      "price": 280,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJek1ueFBVelUwT1JvTENKUGFBUkFDR2dORlZWSTRISENzK3dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzIiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ5Il1dXQ=="
     },
     {
       "flights": [
@@ -296,78 +433,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": 29
       },
-      "price": 280,
+      "price": 281,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZzFUVGpJMU9EaDhVMDR6TWpBM0dnc0kwOW9CRUFJYUEwVlZVamdjY1BYN0FRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU4OCJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjA3Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Berlino-Brandeburgo \"Willy Brandt\"",
-            "id": "BER",
-            "time": "2026-07-09 18:35"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 19:50"
-          },
-          "duration": 75,
-          "airplane": "Embraer 195",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 234",
-          "legroom": "74 cm",
-          "extensions": [
-            "Below average legroom (74 cm)",
-            "Carbon emissions estimate: 77 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Aeroporto di Vienna-Schwechat",
-            "id": "VIE",
-            "time": "2026-07-09 21:20"
-          },
-          "arrival_airport": {
-            "name": "Aeroporto di Venezia Marco Polo",
-            "id": "VCE",
-            "time": "2026-07-09 22:25"
-          },
-          "duration": 65,
-          "airplane": "Embraer 195",
-          "airline": "Austrian",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-          "travel_class": "Economy",
-          "flight_number": "OS 549",
-          "legroom": "76 cm",
-          "extensions": [
-            "Average legroom (76 cm)",
-            "Carbon emissions estimate: 72 kg"
-          ],
-          "plane_and_crew_by": "Air Dolomiti"
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 90,
-          "name": "Aeroporto di Vienna-Schwechat",
-          "id": "VIE"
-        }
-      ],
-      "total_duration": 230,
-      "carbon_emissions": {
-        "this_flight": 150000,
-        "typical_for_this_route": 127000,
-        "difference_percent": 18
-      },
-      "price": 283,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ3RQVXpJek5IeFBVelUwT1JvTENML2NBUkFDR2dORlZWSTRISENGL2dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzQiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ5Il1dXQ=="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZzFUVGpJMU9EaDhVMDR6TWpBM0dnc0k1ZG9CRUFJYUEwVlZVamdjY0lyOEFRPT0iLFtbIkJFUiIsIjIwMjYtMDctMDkiLCJCUlUiLG51bGwsIlNOIiwiMjU4OCJdLFsiQlJVIiwiMjAyNi0wNy0wOSIsIlZDRSIsbnVsbCwiU04iLCIzMjA3Il1dXQ=="
     },
     {
       "flights": [
@@ -433,10 +502,10 @@
         "typical_for_this_route": 127000,
         "difference_percent": 2
       },
-      "price": 284,
+      "price": 310,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ3RQVXpJek1IeFBVelUwTnhvTENLUGRBUkFDR2dORlZWSTRISEQ0L2dFPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzAiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ3Il1dXQ=="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3RQVXpJek1IeFBVelUwTnhvTENNdnhBUkFDR2dORlZWSTRISENzbGdJPSIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlZJRSIsbnVsbCwiT1MiLCIyMzAiXSxbIlZJRSIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIk9TIiwiNTQ3Il1dXQ=="
     },
     {
       "flights": [
@@ -507,92 +576,92 @@
       "price": 311,
       "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
-      "departure_token": "WyJDalJJTmpWaWRYQjBUbkE0YlRSQlVUbG5RbEZDUnkwdExTMHRMUzB0TFMxdmEyNXlNVUZCUVVGQlIyOXNiM1pKVG5saFNIZEJFZ3hNV0RrMk9YeE1XREUyTlRnYUN3aWs4Z0VRQWhvRFJWVlNPQnh3azVjQyIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlpSSCIsbnVsbCwiTFgiLCI5NjkiXSxbIlpSSCIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxYIiwiMTY1OCJdXV0="
+      "departure_token": "WyJDalJJY1hnd1JsSm1XR3RDVkd0QlRsaDFNbWRDUnkwdExTMHRMUzB0TFhaMGVta3hNVUZCUVVGQlIyOXNiemxuUjJwUlNqQkJFZ3hNV0RrMk9YeE1XREUyTlRnYUN3aWs4Z0VRQWhvRFJWVlNPQnh3azVjQyIsW1siQkVSIiwiMjAyNi0wNy0wOSIsIlpSSCIsbnVsbCwiTFgiLCI5NjkiXSxbIlpSSCIsIjIwMjYtMDctMDkiLCJWQ0UiLG51bGwsIkxYIiwiMTY1OCJdXV0="
     }
   ],
   "price_insights": {
-    "lowest_price": 180,
+    "lowest_price": 185,
     "price_level": "typical",
     "typical_price_range": [
-      120,
-      230
+      105,
+      215
     ],
     "price_history": [
       [
         1775599200,
-        162
+        149
       ],
       [
         1775685600,
-        162
+        149
       ],
       [
         1775772000,
-        162
+        141
       ],
       [
         1775858400,
-        157
+        141
       ],
       [
         1775944800,
-        157
+        141
       ],
       [
         1776031200,
-        170
+        147
       ],
       [
         1776117600,
-        171
+        141
       ],
       [
         1776204000,
-        171
+        141
       ],
       [
         1776290400,
-        171
+        141
       ],
       [
         1776376800,
-        170
+        133
       ],
       [
         1776463200,
-        172
+        135
       ],
       [
         1776549600,
-        168
+        135
       ],
       [
         1776636000,
-        159
+        123
       ],
       [
         1776722400,
-        151
+        123
       ],
       [
         1776808800,
-        151
+        123
       ],
       [
         1776895200,
-        160
+        132
       ],
       [
         1776981600,
-        151
+        131
       ],
       [
         1777068000,
-        143
+        131
       ],
       [
         1777154400,
-        141
+        131
       ],
       [
         1777240800,
@@ -600,11 +669,11 @@
       ],
       [
         1777327200,
-        118
+        119
       ],
       [
         1777413600,
-        120
+        118
       ],
       [
         1777500000,
@@ -612,7 +681,7 @@
       ],
       [
         1777586400,
-        118
+        120
       ],
       [
         1777672800,
@@ -620,79 +689,79 @@
       ],
       [
         1777759200,
-        120
-      ],
-      [
-        1777845600,
         121
       ],
       [
-        1777932000,
-        131
-      ],
-      [
-        1778018400,
-        132
-      ],
-      [
-        1778104800,
+        1777845600,
         122
       ],
       [
-        1778191200,
+        1777932000,
+        133
+      ],
+      [
+        1778018400,
+        133
+      ],
+      [
+        1778104800,
         118
+      ],
+      [
+        1778191200,
+        122
       ],
       [
         1778277600,
-        118
+        126
       ],
       [
         1778364000,
-        118
+        130
       ],
       [
         1778450400,
-        118
+        130
       ],
       [
         1778536800,
-        149
+        161
       ],
       [
         1778623200,
-        149
+        161
       ],
       [
         1778709600,
-        149
+        159
       ],
       [
         1778796000,
-        151
+        153
       ],
       [
         1778882400,
-        155
+        153
       ],
       [
         1778968800,
-        158
+        155
       ],
       [
         1779055200,
-        158
+        153
       ],
       [
         1779141600,
-        166
+        153
       ],
       [
         1779228000,
-        166
+        170
       ],
       [
         1779314400,
-        172
+        170
       ],
       [
         1779400800,
@@ -712,11 +781,11 @@
       ],
       [
         1779746400,
-        177
+        174
       ],
       [
         1779832800,
-        173
+        172
       ],
       [
         1779919200,
@@ -724,35 +793,35 @@
       ],
       [
         1780005600,
-        169
+        156
       ],
       [
         1780092000,
-        169
+        156
       ],
       [
         1780178400,
-        163
+        162
       ],
       [
         1780264800,
-        163
+        170
       ],
       [
         1780351200,
-        161
+        173
       ],
       [
         1780437600,
-        168
+        180
       ],
       [
         1780524000,
-        171
+        178
       ],
       [
         1780610400,
-        172
+        177
       ],
       [
         1780696800,
@@ -760,7 +829,7 @@
       ],
       [
         1780783200,
-        180
+        185
       ]
     ]
   },
