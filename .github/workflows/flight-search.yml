@@ -15,52 +15,64 @@ jobs:
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           PAYLOAD: ${{ toJson(github.event.client_payload) }}
-        run: |
-          TOKEN="ff2026-chianti"
-          INPUT_TOKEN=$(echo "$PAYLOAD" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('token',''))")
+        run: python3 - << 'EOF'
+import json
+import os
+import urllib.request
+import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-          if [ "$INPUT_TOKEN" != "$TOKEN" ]; then
-            echo '{"error":"Unauthorized"}' > results/latest.json
-            exit 0
-          fi
+payload = json.loads(os.environ["PAYLOAD"])
+serpapi_key = os.environ["SERPAPI_KEY"]
+secret = "ff2026-chianti"
 
-          mkdir -p results/tmp
+if payload.get("token") != secret:
+    with open("results/latest.json", "w") as f:
+        json.dump({"error": "Unauthorized"}, f)
+    raise SystemExit(0)
 
-          # Extract searches array and run each in parallel
-          echo "$PAYLOAD" | python3 -c "
-import json, sys
-d = json.load(sys.stdin)
-searches = d.get('searches', [])
-for s in searches:
-    key = s['arrival_id'] + '_' + s.get('return_date', s.get('outbound_date',''))
-    print(key + '|' + s['arrival_id'] + '|' + s['outbound_date'] + '|' + s.get('return_date',''))
-" | while IFS='|' read -r key arr_id out_date ret_date; do
-            (
-              url="https://serpapi.com/search?engine=google_flights&departure_id=BER&arrival_id=${arr_id}&outbound_date=${out_date}&return_date=${ret_date}&adults=1&stops=0&currency=EUR&hl=it&api_key=${SERPAPI_KEY}"
-              curl -s "$url" > "results/tmp/${key}.json"
-              echo "Done: $key"
-            ) &
-          done
-          wait
+searches = payload.get("searches", [])
 
-          # Merge all results into one JSON
-          python3 << 'PYEOF'
-import json, os, glob
+def fetch(s):
+    key = s["arrival_id"] + "_" + s.get("return_date", s.get("outbound_date", ""))
+    params = {
+        "engine": "google_flights",
+        "api_key": serpapi_key,
+        "departure_id": "BER",
+        "arrival_id": s["arrival_id"],
+        "outbound_date": s["outbound_date"],
+        "adults": "1",
+        "stops": "0",
+        "currency": "EUR",
+        "hl": "it",
+    }
+    if s.get("return_date"):
+        params["return_date"] = s["return_date"]
+        params["type"] = "1"
+    else:
+        params["type"] = "2"
+
+    url = "https://serpapi.com/search?" + urllib.parse.urlencode(params)
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            return key, json.loads(r.read())
+    except Exception as e:
+        return key, {"error": str(e)}
 
 results = {}
-for f in glob.glob('results/tmp/*.json'):
-    key = os.path.basename(f).replace('.json', '')
-    try:
-        with open(f) as fh:
-            results[key] = json.load(fh)
-    except Exception as e:
-        results[key] = {"error": str(e)}
+with ThreadPoolExecutor(max_workers=6) as ex:
+    futures = {ex.submit(fetch, s): s for s in searches}
+    for fut in as_completed(futures):
+        k, v = fut.result()
+        results[k] = v
+        print(f"Done: {k} | status={v.get('search_metadata', {}).get('status', 'error')}")
 
-with open('results/latest.json', 'w') as out:
-    json.dump(results, out)
+os.makedirs("results", exist_ok=True)
+with open("results/latest.json", "w") as f:
+    json.dump(results, f)
 
 print(f"Merged {len(results)} results: {list(results.keys())}")
-PYEOF
+EOF
 
       - name: Commit results
         run: |
